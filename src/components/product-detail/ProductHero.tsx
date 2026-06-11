@@ -21,9 +21,8 @@ export default function ProductHero({
     `https://wa.me/919846083216?text=${encodeURIComponent(
       whatsappMessage
     )}`;
-
   return (
-    <div className="sticky top-28">
+    <div>
 
       <div className="flex items-center gap-3 mb-4">
 

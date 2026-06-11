@@ -63,13 +63,7 @@ export default async function ProductPage({
           <div className="grid lg:grid-cols-2 gap-16 items-start">
 
             {/* Sticky Gallery */}
-            <div
-              className="
-                lg:sticky
-                lg:top-32
-                self-start
-              "
-            >
+            <div>
               <ProductGallery
                 gallery={product.gallery}
                 name={product.name}
