@@ -1,244 +1,294 @@
 export const doorCategories = [
-  {
-    title: "WPC Doors",
+{
+title: "WPC Main Doors",
 
-    slug: "/products/doors/modern-oak-door",
 
-    image: "/doors/categories/wpc.jpg",
+slug: "/products/doors/wpc-main-door",
 
-    description:
-      "Premium Wood Plastic Composite doors engineered for superior durability, waterproof performance, and long-lasting aesthetics.",
+image: "/doors/categories/wpc-main-door.png",
 
-    longDescription:
-      "WPC doors are ideal for modern homes, apartments, villas, and commercial projects. They offer excellent resistance against moisture, termites, and everyday wear while maintaining a premium appearance.",
+description:
+  "Premium entrance doors engineered for superior strength, security, and long-lasting performance.",
 
-    idealFor: [
-      "Bathrooms",
-      "Bedrooms",
-      "Kitchens",
-      "Apartments",
-      "Villas",
-      "Commercial Spaces",
-    ],
+longDescription:
+  "WPC Main Doors are designed for homes, villas, apartments, and commercial buildings. They combine elegant wood-like aesthetics with exceptional resistance to moisture, termites, and harsh weather conditions.",
 
-    benefits: [
-      "100% Waterproof",
-      "Termite Resistant",
-      "Durable Construction",
-      "Low Maintenance",
-      "Premium Finishes",
-      "Long Lifespan",
-    ],
+idealFor: [
+  "Main Entrances",
+  "Villas",
+  "Apartments",
+  "Commercial Buildings",
+  "Office Entrances",
+],
 
-    ctaText: "Explore WPC Doors",
-  },
+benefits: [
+  "Weather Resistant",
+  "Termite Resistant",
+  "Premium Appearance",
+  "Strong Construction",
+  "Low Maintenance",
+  "Long Lifespan",
+],
 
-  {
-    title: "Designer Doors",
+ctaText: "Explore Main Doors",
 
-    slug: "/products/doors/premium-waterproof-door",
 
-    image: "/doors/categories/designer.jpg",
+},
 
-    description:
-      "Luxury door solutions crafted to enhance modern architectural and interior designs.",
+{
+title: "Interior Doors",
 
-    longDescription:
-      "Designer doors combine premium finishes, elegant detailing, and sophisticated aesthetics, making them ideal for luxury homes, villas, and premium commercial spaces.",
 
-    idealFor: [
-      "Luxury Homes",
-      "Villas",
-      "Premium Interiors",
-      "Reception Areas",
-      "Architectural Projects",
-    ],
+slug: "/products/doors/wpc-interior-door",
 
-    benefits: [
-      "Luxury Appearance",
-      "Modern Aesthetics",
-      "Unique Designs",
-      "Premium Finishes",
-      "Strong Construction",
-      "High Visual Impact",
-    ],
+image: "/doors/categories/wpc-interior-door.png",
 
-    ctaText: "Explore Designer Doors",
-  },
+description:
+  "Elegant interior door solutions designed for modern living spaces and commercial interiors.",
 
-  {
-    title: "Flush Doors",
+longDescription:
+  "WPC Interior Doors offer a perfect combination of aesthetics, durability, and functionality for bedrooms, living rooms, apartments, and office spaces.",
 
-    slug: "/products/doors/luxury-designer-door",
+idealFor: [
+  "Bedrooms",
+  "Living Rooms",
+  "Dining Areas",
+  "Apartments",
+  "Office Cabins",
+],
 
-    image: "/doors/categories/flush.jpg",
+benefits: [
+  "Smooth Finish",
+  "Termite Resistant",
+  "Waterproof",
+  "Elegant Appearance",
+  "Low Maintenance",
+  "Durable Construction",
+],
 
-    description:
-      "Minimalist and versatile flush doors designed for contemporary living and commercial applications.",
+ctaText: "Explore Interior Doors",
 
-    longDescription:
-      "Flush doors offer clean lines, smooth surfaces, and practical functionality. Their timeless design suits both residential and commercial environments.",
 
-    idealFor: [
-      "Bedrooms",
-      "Apartments",
-      "Offices",
-      "Commercial Buildings",
-      "Institutional Projects",
-    ],
+},
 
-    benefits: [
-      "Minimalist Design",
-      "Smooth Surface",
-      "Easy Maintenance",
-      "Affordable Solution",
-      "Long Lifespan",
-      "Versatile Applications",
-    ],
+{
+title: "Bathroom & Kitchen Doors",
 
-    ctaText: "Explore Flush Doors",
-  },
 
-  {
-    title: "Laminated Doors",
+slug: "/products/doors/wpc-bathroom-door",
 
-    slug: "/products/doors/contemporary-flush-door",
+image: "/doors/categories/wpc-bathroom-door.png",
 
-    image: "/doors/categories/laminated.jpg",
+description:
+  "Specialized moisture-resistant WPC doors designed for wet and high-humidity environments.",
 
-    description:
-      "Decorative laminated doors featuring attractive finishes and enhanced durability.",
+longDescription:
+  "Our Bathroom and Kitchen Doors are manufactured using premium WPC material, ensuring complete protection against moisture, swelling, and termite damage.",
 
-    longDescription:
-      "Laminated doors provide modern aesthetics with practical performance. Available in multiple textures and finishes to suit various interior styles.",
+idealFor: [
+  "Bathrooms",
+  "Washrooms",
+  "Kitchens",
+  "Utility Areas",
+  "Commercial Restrooms",
+],
 
-    idealFor: [
-      "Residential Interiors",
-      "Office Spaces",
-      "Hospitality Projects",
-      "Apartments",
-      "Modern Homes",
-    ],
+benefits: [
+  "100% Waterproof",
+  "Moisture Resistant",
+  "Anti-Warping",
+  "Termite Resistant",
+  "Easy Cleaning",
+  "Long Lifespan",
+],
 
-    benefits: [
-      "Decorative Finishes",
-      "Scratch Resistance",
-      "Easy Cleaning",
-      "Modern Appearance",
-      "Durable Surface",
-      "Wide Finish Options",
-    ],
+ctaText: "Explore Waterproof Doors",
 
-    ctaText: "Explore Laminated Doors",
-  },
+
+},
+
+{
+title: "Designer & Carved Doors",
+
+
+slug: "/products/doors/wpc-designer-door",
+
+image: "/doors/categories/wpc-designer-door.png",
+
+description:
+  "Premium designer and carved doors crafted to elevate luxury residential and commercial interiors.",
+
+longDescription:
+  "Designer and Carved WPC Doors feature elegant detailing, decorative patterns, and superior craftsmanship while offering the durability and low maintenance of modern WPC technology.",
+
+idealFor: [
+  "Luxury Homes",
+  "Villas",
+  "Hotels",
+  "Reception Areas",
+  "Premium Commercial Spaces",
+],
+
+benefits: [
+  "Luxury Appearance",
+  "Decorative Designs",
+  "Premium Finishes",
+  "Termite Resistant",
+  "Waterproof",
+  "Long Lasting Beauty",
+],
+
+ctaText: "Explore Designer Doors",
+
+
+},
 ];
 
 export const doorProducts = [
-  {
-    slug: "modern-oak-door",
+{
+slug: "wpc-main-door",
 
-    name: "Modern Oak Door",
 
-    image: "/doors/products/door-1.jpg",
+name: "WPC Main Door",
 
-    badge: "Best Seller",
+image: "/doors/products/door-1-1.png",
 
-    category: "WPC Door",
+badge: "Best Seller",
 
-    shortDescription:
-      "Premium waterproof WPC door with elegant oak wood texture.",
+category: "WPC Door",
 
-    whatsappMessage:
-      "Hello, I am interested in the Modern Oak Door. Please share more details.",
-  },
+shortDescription:
+  "Stylish and durable WPC main door with excellent weather and termite resistance.",
 
-  {
-    slug: "premium-waterproof-door",
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Main Door. Please share pricing and specifications.",
 
-    name: "Premium Waterproof Door",
 
-    image: "/doors/products/door-2.jpg",
+},
 
-    badge: "Waterproof",
+{
+slug: "wpc-interior-door",
 
-    category: "WPC Door",
 
-    shortDescription:
-      "Ideal solution for bathrooms, kitchens, and moisture-prone environments.",
+name: "WPC Interior Door",
 
-    whatsappMessage:
-      "Hello, I am interested in the Premium Waterproof Door. Please share more details.",
-  },
+image: "/doors/products/door-2-1.png",
 
-  {
-    slug: "luxury-designer-door",
+badge: "Popular Choice",
 
-    name: "Luxury Designer Door",
+category: "WPC Door",
 
-    image: "/doors/products/door-3.jpg",
+shortDescription:
+  "Elegant WPC interior door designed for stylish and durable indoor spaces.",
 
-    badge: "Premium Finish",
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Interior Door. Please share pricing and specifications.",
 
-    category: "Designer Door",
 
-    shortDescription:
-      "Sophisticated designer door crafted for luxury interiors and villas.",
+},
 
-    whatsappMessage:
-      "Hello, I am interested in the Luxury Designer Door. Please share more details.",
-  },
+{
+slug: "wpc-bathroom-door",
 
-  {
-    slug: "contemporary-flush-door",
 
-    name: "Contemporary Flush Door",
+name: "WPC Bathroom Door",
 
-    image: "/doors/products/door-4.jpg",
+image: "/doors/products/door-3-1.png",
 
-    badge: "New Arrival",
+badge: "Waterproof",
 
-    category: "Flush Door",
+category: "WPC Door",
 
-    shortDescription:
-      "Clean, minimalist flush door designed for modern architecture.",
+shortDescription:
+  "Fully waterproof WPC bathroom door built for moisture-prone spaces.",
 
-    whatsappMessage:
-      "Hello, I am interested in the Contemporary Flush Door. Please share more details.",
-  },
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Bathroom Door. Please share pricing and specifications.",
 
-  {
-    slug: "classic-interior-door",
 
-    name: "Classic Interior Door",
+},
 
-    image: "/doors/products/door-5.jpg",
+{
+slug: "wpc-kitchen-door",
 
-    badge: "Popular",
 
-    category: "Laminated Door",
+name: "WPC Kitchen Door",
 
-    shortDescription:
-      "Elegant laminated door featuring decorative and durable finishes.",
+image: "/doors/products/door-4-1.png",
 
-    whatsappMessage:
-      "Hello, I am interested in the Classic Interior Door. Please share more details.",
-  },
+badge: "Durable",
 
-  {
-    slug: "commercial-performance-door",
+category: "WPC Door",
 
-    name: "Commercial Performance Door",
+shortDescription:
+  "Moisture-resistant WPC kitchen door combining durability with modern aesthetics.",
 
-    image: "/doors/products/door-6.jpg",
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Kitchen Door. Please share pricing and specifications.",
 
-    badge: "Heavy Duty",
 
-    category: "Commercial Door",
+},
 
-    shortDescription:
-      "Reliable heavy-duty commercial door built for demanding environments.",
+{
+slug: "wpc-laminated-door",
 
-    whatsappMessage:
-      "Hello, I am interested in the Commercial Performance Door. Please share more details.",
-  },
+
+name: "WPC Laminated Door",
+
+image: "/doors/products/door-5-1.png",
+
+badge: "Premium Finish",
+
+category: "WPC Door",
+
+shortDescription:
+  "Elegant laminated WPC door with superior durability and premium finish.",
+
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Laminated Door. Please share pricing and specifications.",
+
+
+},
+
+{
+slug: "wpc-designer-door",
+
+
+name: "WPC Designer Door",
+
+image: "/doors/products/door-6-1.png",
+
+badge: "Premium Design",
+
+category: "WPC Door",
+
+shortDescription:
+  "Premium designer WPC door with stylish patterns and long-lasting durability.",
+
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Designer Door. Please share pricing and specifications.",
+
+
+},
+
+{
+slug: "wpc-carved-door",
+
+
+name: "WPC Carved Door",
+
+image: "/doors/products/door-7-1.png",
+
+badge: "Luxury Collection",
+
+category: "WPC Door",
+
+shortDescription:
+  "Decorative WPC carved door with premium craftsmanship and superior durability.",
+
+whatsappMessage:
+  "Hello Pentodoors & Frames, I'm interested in the WPC Carved Door. Please share pricing and specifications.",
+
+
+},
 ];
